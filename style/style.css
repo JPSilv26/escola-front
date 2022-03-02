@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans&display=swap');
+
+
+:root{
+    --font-titulo: 'Open Sans', sans-serif;
+    --font-corpo: 'PT Sans', sans-serif;
+
+    --cor-fundo: #282828;
+    --cor-tittle-footer: #222026;
+    --cor-body0: #ffffff;
+    --cor-body1: #eeeeee;
+    --cor-body2: #4d5052;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 960px;
+    margin: auto;
+}
+/*HEADER*/
+header{
+    width: 100%;
+}
+.titulo{
+    background-color: var(--cor-tittle-footer);
+    padding: 15px 20px 40px 35px;
+}
+div.logo{
+    display: inline-block;
+    float: left;
+}
+ul.list li{
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding: 0px 15px;
+}
+/*NAV*/
+.navegação{
+    font-family: var(--font-titulo);
+    width: 94,5%;
+    height: 50px;
+    display: block;
+    padding-top: 27px;
+    padding-right: 20px;
+    padding-left: 5px;
+    text-align: center;
+}
+input{
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    border-radius: 5px;
+    background-image: url(../imagens/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    padding: 5px 10px;
+    text-align: center;
+}
+.menu{
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--cor-body2);
+}
+.menu a{
+    text-decoration: underline;
+}
+.busca{
+    float: right;
+}
+main{
+    background-color: #4d5052;
+    height: 90vh;
+}
