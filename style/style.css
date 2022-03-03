@@ -45,6 +45,8 @@ ul.list li{
     padding-right: 20px;
     padding-left: 5px;
     text-align: center;
+    border-bottom: 3px solid rgba(202, 197, 197, 0.26);
+    margin-bottom: 1px;
 }
 input{
     border: 1px solid rgba(128, 128, 128, 0.452);
@@ -55,19 +57,45 @@ input{
     padding: 5px 10px;
     text-align: center;
 }
-.menu{
+.menu a{
     float: left;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--cor-body2);
 }
-.menu a{
-    text-decoration: underline;
+ a.esp:hover{
+    color: #00bac6;
+    padding-bottom: 28px;
+    border-bottom: 3px solid #00bac6;
 }
 .busca{
     float: right;
 }
 main{
-    background-color: #4d5052;
+    background-color: rgb(255, 255, 255);
     height: 90vh;
+}
+main div.banner{
+    background-color: #222026;
+}
+main div.div01{
+    background-color: white;
+}
+main div.div02{
+    background-color: var(--cor-body0);
+    display:grid;
+    grid-column: 3ft;
+}
+main div.div03{
+    background-color: white;
+}
+main div.div04{
+    background-color: var(--cor-body2);
+}
+
+footer{
+    display: flex;
+    background-color: var(--cor-tittle-footer);
+    height: 60px;
+    color: white;
 }
