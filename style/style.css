@@ -239,24 +239,35 @@ div.traço{
     background-color: var(--cor07);
 }
 .rodape{
-    text-align: center;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: left;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 30px;
 }
 .rodape h4{
+    text-align: left;
     font-size: 1.5em;
     font-weight: bold;
     color: var(--cor03);
-    margin: 20px 10px;
+    padding: 20px 15px;
 }
 .rodape p{
     color: var(--cor03);
-    margin: 20px 10px;
+    margin: 20px 0px;
 }
-.rodape ul{
-    margin: 20px 10px;
+.rodape img{
+    padding-right: 10px;
+}
+.rodape ul li{
     color: var(--cor03);
-    text-align: center;
+    text-align: left;
+    padding: 6px 20px; 
+    list-style: none;
+}
+.rodape ul img{
+    padding-right: 15px;
 }
 .footer{
     width: 100%;
